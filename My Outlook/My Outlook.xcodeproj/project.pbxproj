@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141AD4511E4A8B3700A7D691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4501E4A8B3700A7D691 /* main.m */; };
+		141AD4541E4A8B3700A7D691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4531E4A8B3700A7D691 /* AppDelegate.m */; };
+		141AD4571E4A8B3700A7D691 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4561E4A8B3700A7D691 /* CalendarViewController.m */; };
+		141AD45A1E4A8B3700A7D691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141AD4581E4A8B3700A7D691 /* Main.storyboard */; };
+		141AD45C1E4A8B3700A7D691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141AD45B1E4A8B3700A7D691 /* Assets.xcassets */; };
+		141AD45F1E4A8B3700A7D691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141AD45D1E4A8B3700A7D691 /* LaunchScreen.storyboard */; };
+		141AD46A1E4A8B3800A7D691 /* My_OutlookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4691E4A8B3800A7D691 /* My_OutlookTests.m */; };
+		141AD4751E4A8B3800A7D691 /* My_OutlookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4741E4A8B3800A7D691 /* My_OutlookUITests.m */; };
+		141AD4C51E5056DB00A7D691 /* SeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4C41E5056DB00A7D691 /* SeparatorView.m */; };
+		141AD4C81E5058A800A7D691 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4C71E5058A800A7D691 /* CustomFlowLayout.m */; };
+		141AD4CC1E5143A700A7D691 /* UnderlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4CB1E5143A700A7D691 /* UnderlineView.m */; };
+		141AD4D21E51C4E600A7D691 /* TableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4D11E51C4E600A7D691 /* TableSectionHeaderView.m */; };
+		141AD4D51E5275EF00A7D691 /* SelectedBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AD4D41E5275EF00A7D691 /* SelectedBGView.m */; };
+		14DF22391E56D8D0008CB09B /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DF22381E56D8D0008CB09B /* WeatherViewController.m */; };
+		14DF223C1E56F58F008CB09B /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DF223B1E56F58F008CB09B /* YQL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		141AD4661E4A8B3800A7D691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 141AD4441E4A8B3700A7D691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 141AD44B1E4A8B3700A7D691;
+			remoteInfo = "My Outlook";
+		};
+		141AD4711E4A8B3800A7D691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 141AD4441E4A8B3700A7D691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 141AD44B1E4A8B3700A7D691;
+			remoteInfo = "My Outlook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		141AD44C1E4A8B3700A7D691 /* My Outlook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Outlook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141AD4501E4A8B3700A7D691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		141AD4521E4A8B3700A7D691 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		141AD4531E4A8B3700A7D691 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		141AD4551E4A8B3700A7D691 /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		141AD4561E4A8B3700A7D691 /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		141AD4591E4A8B3700A7D691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		141AD45B1E4A8B3700A7D691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		141AD45E1E4A8B3700A7D691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		141AD4601E4A8B3700A7D691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141AD4651E4A8B3800A7D691 /* My OutlookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My OutlookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141AD4691E4A8B3800A7D691 /* My_OutlookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_OutlookTests.m; sourceTree = "<group>"; };
+		141AD46B1E4A8B3800A7D691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141AD4701E4A8B3800A7D691 /* My OutlookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My OutlookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141AD4741E4A8B3800A7D691 /* My_OutlookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_OutlookUITests.m; sourceTree = "<group>"; };
+		141AD4761E4A8B3800A7D691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141AD4C31E5056B100A7D691 /* SeparatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeparatorView.h; sourceTree = "<group>"; };
+		141AD4C41E5056DB00A7D691 /* SeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorView.m; sourceTree = "<group>"; };
+		141AD4C61E50582800A7D691 /* CustomFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
+		141AD4C71E5058A800A7D691 /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		141AD4C91E51434000A7D691 /* UnderlineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnderlineView.h; sourceTree = "<group>"; };
+		141AD4CB1E5143A700A7D691 /* UnderlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnderlineView.m; path = ../UnderlineView.m; sourceTree = "<group>"; };
+		141AD4D01E51C43E00A7D691 /* TableSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableSectionHeaderView.h; sourceTree = "<group>"; };
+		141AD4D11E51C4E600A7D691 /* TableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSectionHeaderView.m; sourceTree = "<group>"; };
+		141AD4D31E5275B700A7D691 /* SelectedBGView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectedBGView.h; sourceTree = "<group>"; };
+		141AD4D41E5275EF00A7D691 /* SelectedBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedBGView.m; sourceTree = "<group>"; };
+		14DF22371E56D863008CB09B /* WeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		14DF22381E56D8D0008CB09B /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		14DF223A1E56F58F008CB09B /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
+		14DF223B1E56F58F008CB09B /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141AD4491E4A8B3700A7D691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141AD4621E4A8B3800A7D691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141AD46D1E4A8B3800A7D691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141AD4431E4A8B3700A7D691 = {
+			isa = PBXGroup;
+			children = (
+				141AD44E1E4A8B3700A7D691 /* My Outlook */,
+				141AD4681E4A8B3800A7D691 /* My OutlookTests */,
+				141AD4731E4A8B3800A7D691 /* My OutlookUITests */,
+				141AD44D1E4A8B3700A7D691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		141AD44D1E4A8B3700A7D691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141AD44C1E4A8B3700A7D691 /* My Outlook.app */,
+				141AD4651E4A8B3800A7D691 /* My OutlookTests.xctest */,
+				141AD4701E4A8B3800A7D691 /* My OutlookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		141AD44E1E4A8B3700A7D691 /* My Outlook */ = {
+			isa = PBXGroup;
+			children = (
+				141AD4581E4A8B3700A7D691 /* Main.storyboard */,
+				14DF223E1E590D8B008CB09B /* Layout */,
+				14DF223D1E56FC08008CB09B /* Yahoo Weather API */,
+				141AD4CA1E51437600A7D691 /* Views */,
+				141AD4551E4A8B3700A7D691 /* CalendarViewController.h */,
+				141AD4561E4A8B3700A7D691 /* CalendarViewController.m */,
+				14DF22371E56D863008CB09B /* WeatherViewController.h */,
+				14DF22381E56D8D0008CB09B /* WeatherViewController.m */,
+				141AD45B1E4A8B3700A7D691 /* Assets.xcassets */,
+				141AD45D1E4A8B3700A7D691 /* LaunchScreen.storyboard */,
+				141AD4601E4A8B3700A7D691 /* Info.plist */,
+				141AD44F1E4A8B3700A7D691 /* Supporting Files */,
+			);
+			path = "My Outlook";
+			sourceTree = "<group>";
+		};
+		141AD44F1E4A8B3700A7D691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				141AD4521E4A8B3700A7D691 /* AppDelegate.h */,
+				141AD4531E4A8B3700A7D691 /* AppDelegate.m */,
+				141AD4501E4A8B3700A7D691 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		141AD4681E4A8B3800A7D691 /* My OutlookTests */ = {
+			isa = PBXGroup;
+			children = (
+				141AD4691E4A8B3800A7D691 /* My_OutlookTests.m */,
+				141AD46B1E4A8B3800A7D691 /* Info.plist */,
+			);
+			path = "My OutlookTests";
+			sourceTree = "<group>";
+		};
+		141AD4731E4A8B3800A7D691 /* My OutlookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				141AD4741E4A8B3800A7D691 /* My_OutlookUITests.m */,
+				141AD4761E4A8B3800A7D691 /* Info.plist */,
+			);
+			path = "My OutlookUITests";
+			sourceTree = "<group>";
+		};
+		141AD4CA1E51437600A7D691 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				141AD4C31E5056B100A7D691 /* SeparatorView.h */,
+				141AD4C41E5056DB00A7D691 /* SeparatorView.m */,
+				141AD4C91E51434000A7D691 /* UnderlineView.h */,
+				141AD4CB1E5143A700A7D691 /* UnderlineView.m */,
+				141AD4D01E51C43E00A7D691 /* TableSectionHeaderView.h */,
+				141AD4D11E51C4E600A7D691 /* TableSectionHeaderView.m */,
+				141AD4D31E5275B700A7D691 /* SelectedBGView.h */,
+				141AD4D41E5275EF00A7D691 /* SelectedBGView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		14DF223D1E56FC08008CB09B /* Yahoo Weather API */ = {
+			isa = PBXGroup;
+			children = (
+				14DF223A1E56F58F008CB09B /* YQL.h */,
+				14DF223B1E56F58F008CB09B /* YQL.m */,
+			);
+			name = "Yahoo Weather API";
+			sourceTree = "<group>";
+		};
+		14DF223E1E590D8B008CB09B /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				141AD4C61E50582800A7D691 /* CustomFlowLayout.h */,
+				141AD4C71E5058A800A7D691 /* CustomFlowLayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		141AD44B1E4A8B3700A7D691 /* My Outlook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141AD4791E4A8B3800A7D691 /* Build configuration list for PBXNativeTarget "My Outlook" */;
+			buildPhases = (
+				141AD4481E4A8B3700A7D691 /* Sources */,
+				141AD4491E4A8B3700A7D691 /* Frameworks */,
+				141AD44A1E4A8B3700A7D691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Outlook";
+			productName = "My Outlook";
+			productReference = 141AD44C1E4A8B3700A7D691 /* My Outlook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		141AD4641E4A8B3800A7D691 /* My OutlookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141AD47C1E4A8B3800A7D691 /* Build configuration list for PBXNativeTarget "My OutlookTests" */;
+			buildPhases = (
+				141AD4611E4A8B3800A7D691 /* Sources */,
+				141AD4621E4A8B3800A7D691 /* Frameworks */,
+				141AD4631E4A8B3800A7D691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141AD4671E4A8B3800A7D691 /* PBXTargetDependency */,
+			);
+			name = "My OutlookTests";
+			productName = "My OutlookTests";
+			productReference = 141AD4651E4A8B3800A7D691 /* My OutlookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		141AD46F1E4A8B3800A7D691 /* My OutlookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141AD47F1E4A8B3800A7D691 /* Build configuration list for PBXNativeTarget "My OutlookUITests" */;
+			buildPhases = (
+				141AD46C1E4A8B3800A7D691 /* Sources */,
+				141AD46D1E4A8B3800A7D691 /* Frameworks */,
+				141AD46E1E4A8B3800A7D691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141AD4721E4A8B3800A7D691 /* PBXTargetDependency */,
+			);
+			name = "My OutlookUITests";
+			productName = "My OutlookUITests";
+			productReference = 141AD4701E4A8B3800A7D691 /* My OutlookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		141AD4441E4A8B3700A7D691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mukhtar Yusuf";
+				TargetAttributes = {
+					141AD44B1E4A8B3700A7D691 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9QBV7H6RX5;
+						ProvisioningStyle = Automatic;
+					};
+					141AD4641E4A8B3800A7D691 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 141AD44B1E4A8B3700A7D691;
+					};
+					141AD46F1E4A8B3800A7D691 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 141AD44B1E4A8B3700A7D691;
+					};
+				};
+			};
+			buildConfigurationList = 141AD4471E4A8B3700A7D691 /* Build configuration list for PBXProject "My Outlook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 141AD4431E4A8B3700A7D691;
+			productRefGroup = 141AD44D1E4A8B3700A7D691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				141AD44B1E4A8B3700A7D691 /* My Outlook */,
+				141AD4641E4A8B3800A7D691 /* My OutlookTests */,
+				141AD46F1E4A8B3800A7D691 /* My OutlookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		141AD44A1E4A8B3700A7D691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141AD45F1E4A8B3700A7D691 /* LaunchScreen.storyboard in Resources */,
+				141AD45C1E4A8B3700A7D691 /* Assets.xcassets in Resources */,
+				141AD45A1E4A8B3700A7D691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141AD4631E4A8B3800A7D691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141AD46E1E4A8B3800A7D691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141AD4481E4A8B3700A7D691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DF223C1E56F58F008CB09B /* YQL.m in Sources */,
+				141AD4571E4A8B3700A7D691 /* CalendarViewController.m in Sources */,
+				141AD4CC1E5143A700A7D691 /* UnderlineView.m in Sources */,
+				141AD4541E4A8B3700A7D691 /* AppDelegate.m in Sources */,
+				14DF22391E56D8D0008CB09B /* WeatherViewController.m in Sources */,
+				141AD4D51E5275EF00A7D691 /* SelectedBGView.m in Sources */,
+				141AD4D21E51C4E600A7D691 /* TableSectionHeaderView.m in Sources */,
+				141AD4511E4A8B3700A7D691 /* main.m in Sources */,
+				141AD4C51E5056DB00A7D691 /* SeparatorView.m in Sources */,
+				141AD4C81E5058A800A7D691 /* CustomFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141AD4611E4A8B3800A7D691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141AD46A1E4A8B3800A7D691 /* My_OutlookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141AD46C1E4A8B3800A7D691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141AD4751E4A8B3800A7D691 /* My_OutlookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141AD4671E4A8B3800A7D691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 141AD44B1E4A8B3700A7D691 /* My Outlook */;
+			targetProxy = 141AD4661E4A8B3800A7D691 /* PBXContainerItemProxy */;
+		};
+		141AD4721E4A8B3800A7D691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 141AD44B1E4A8B3700A7D691 /* My Outlook */;
+			targetProxy = 141AD4711E4A8B3800A7D691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		141AD4581E4A8B3700A7D691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				141AD4591E4A8B3700A7D691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		141AD45D1E4A8B3700A7D691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				141AD45E1E4A8B3700A7D691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		141AD4771E4A8B3800A7D691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		141AD4781E4A8B3800A7D691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		141AD47A1E4A8B3800A7D691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9QBV7H6RX5;
+				INFOPLIST_FILE = "My Outlook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MukhtarYusuf.My-Outlook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		141AD47B1E4A8B3800A7D691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9QBV7H6RX5;
+				INFOPLIST_FILE = "My Outlook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MukhtarYusuf.My-Outlook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		141AD47D1E4A8B3800A7D691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My OutlookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MukhtarYusuf.My-OutlookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Outlook.app/My Outlook";
+			};
+			name = Debug;
+		};
+		141AD47E1E4A8B3800A7D691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My OutlookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MukhtarYusuf.My-OutlookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Outlook.app/My Outlook";
+			};
+			name = Release;
+		};
+		141AD4801E4A8B3800A7D691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My OutlookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MukhtarYusuf.My-OutlookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Outlook";
+			};
+			name = Debug;
+		};
+		141AD4811E4A8B3800A7D691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My OutlookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MukhtarYusuf.My-OutlookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Outlook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141AD4471E4A8B3700A7D691 /* Build configuration list for PBXProject "My Outlook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141AD4771E4A8B3800A7D691 /* Debug */,
+				141AD4781E4A8B3800A7D691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141AD4791E4A8B3800A7D691 /* Build configuration list for PBXNativeTarget "My Outlook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141AD47A1E4A8B3800A7D691 /* Debug */,
+				141AD47B1E4A8B3800A7D691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141AD47C1E4A8B3800A7D691 /* Build configuration list for PBXNativeTarget "My OutlookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141AD47D1E4A8B3800A7D691 /* Debug */,
+				141AD47E1E4A8B3800A7D691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141AD47F1E4A8B3800A7D691 /* Build configuration list for PBXNativeTarget "My OutlookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141AD4801E4A8B3800A7D691 /* Debug */,
+				141AD4811E4A8B3800A7D691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 141AD4441E4A8B3700A7D691 /* Project object */;
+}
