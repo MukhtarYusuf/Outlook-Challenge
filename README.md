@@ -1,2 +1,2 @@
 # Outlook-Challenge
-Recreation of the Calendar/Event views from the Outlook mobile app, with a bonus feature included
+Recreation of the Calendar/Event views from the Outlook mobile app, with a bonus feature included. The Calendar view is a continuously scrolling view that allows the user to browse between days of the year. Tapping on a date should update the information displayed in the Events view. Similarly the events view is a scrolling view. Scrolling in the events view should update the information displayed in the Calendar view
